@@ -1,0 +1,25 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>IdeaScale Dark Theme</name>
+  <version>1.0</version>
+  <vendor email="nure.alam@ideascale.com" url="https://ideascale.com">IdeaScale</vendor>
+
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="be1631e9-66e1-4fad-8f68-4d8729c0115e" path="/META-INF/ideascale_dark.theme.json"/>
+    <themeProvider id="aed8d195-e71f-4fd1-a036-9a9452464f9d" path="/ideascale_dark.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
