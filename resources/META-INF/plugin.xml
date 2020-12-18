@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
+  <id>com.ideascale.dark.theme</id>
   <name>IdeaScale Dark Theme</name>
   <version>1.0</version>
   <vendor email="nure.alam@ideascale.com" url="https://ideascale.com">IdeaScale</vendor>
