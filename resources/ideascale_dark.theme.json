@@ -156,7 +156,8 @@
     },
     "CompletionPopup": {
       "matchForeground": "#FDA14F",
-      "selectionBackground": "#1D7BED"
+      "selectionBackground": "#1D7BED",
+      "foreground": "#dddddd"
     },
     "icons": {
       "ColorPalette": {

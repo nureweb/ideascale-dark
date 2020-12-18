@@ -1,15 +1,16 @@
 <scheme name="ideascale_dark" version="142" parent_scheme="Darcula">
   <colors>
     <option name="CARET_ROW_COLOR" value="2f3239" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="212323" />
     <option name="DOCUMENTATION_COLOR" value="212323" />
     <option name="ERROR_HINT" value="212323" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="212323" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ff0000" />
+    <option name="INFORMATION_HINT" value="212323" />
     <option name="NOTIFICATION_BACKGROUND" value="222f74" />
     <option name="SELECTION_BACKGROUND" value="222f74" />
     <option name="WHITESPACES" value="4f535f" />
-    <option name="INFORMATION_HINT" value="212323" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -29,6 +30,7 @@
       <value>
         <option name="FOREGROUND" value="f2ac3e" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -104,7 +106,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="6fc0a4" />
+        <option name="FOREGROUND" value="f2ac3e" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -182,7 +184,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="6fc0a4" />
+        <option name="FOREGROUND" value="f2ac3e" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -198,7 +200,8 @@
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="4299dd" />
+        <option name="FOREGROUND" value="f2ac3e" />
+        <option name="EFFECT_COLOR" value="aaaaaa" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -212,7 +215,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="a4a5a7" />
+        <option name="FOREGROUND" value="aaaaaa" />
         <option name="BACKGROUND" value="494a4f" />
       </value>
     </option>
@@ -248,8 +251,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4d5565" />
-        <option name="ERROR_STRIPE_COLOR" value="81899c" />
+        <option name="BACKGROUND" value="444444" />
+        <option name="ERROR_STRIPE_COLOR" value="a6aeb5" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -272,6 +275,21 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="LOG_EXPIRED_ENTRY">
+      <value>
+        <option name="FOREGROUND" value="a6aeb5" />
+      </value>
+    </option>
+    <option name="LOG_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="e4e7f7" />
+      </value>
+    </option>
+    <option name="LOG_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="f7debd" />
+      </value>
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -286,8 +304,15 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="545558" />
+        <option name="FOREGROUND" value="72b964" />
+        <option name="BACKGROUND" value="212323" />
         <option name="ERROR_STRIPE_COLOR" value="545558" />
+      </value>
+    </option>
+    <option name="STATIC_METHOD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="a26ed6" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TEXT">
