@@ -1,7 +1,7 @@
 {
-  "name": "ideascale_dark",
+  "name": "IdeaScale Dark",
   "dark": true,
-  "author": "Nure Alam",
+  "author": "IdeaScale",
   "editorScheme": "/ideascale_dark.xml",
   "ui": {
     "*": {
