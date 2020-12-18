@@ -2,13 +2,14 @@
   <colors>
     <option name="CARET_ROW_COLOR" value="2f3239" />
     <option name="DOCUMENTATION_COLOR" value="212323" />
+    <option name="ERROR_HINT" value="212323" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="212323" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ff0000" />
-    <option name="INFORMATION_HINT" value="a21313" />
     <option name="NOTIFICATION_BACKGROUND" value="222f74" />
     <option name="SELECTION_BACKGROUND" value="222f74" />
     <option name="WHITESPACES" value="4f535f" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
+    <option name="INFORMATION_HINT" value="212323" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
@@ -316,6 +317,12 @@
     <option name="VELOCITY_SCRIPTING_BACKGROUND">
       <value />
     </option>
+    <option name="WARNING_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="ff9800" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3169b0" />
@@ -351,11 +358,5 @@
       </value>
     </option>
     <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="WARNING_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="ff9800" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
   </attributes>
 </scheme>
